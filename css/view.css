@@ -1,0 +1,10 @@
+* {
+    
+    background-position: center;
+    background-image: url("../img/background.png");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name {
+    color: orangered;
+}

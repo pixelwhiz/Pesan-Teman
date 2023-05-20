@@ -1,0 +1,27 @@
+body {
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.card form input {
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+    
+}
+
+.card form input:focus, .card form input:valid {
+    box-shadow: none;
+    border-color: silver;
+}
+
+input:focus ~ label {
+    transform: translateY(-20px);
+}
